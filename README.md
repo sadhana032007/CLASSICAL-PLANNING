@@ -47,7 +47,7 @@ print(plan)
 # Please Prepare Solution or Definition For the method find_plan(initial_state, goal_state, actions)
 <h3>You Can use any of the searching Strategies for planning and executing a sequence of actions.<br> You can also look in to the Code given in the Repository.</h3>
 PROGRAM:
-```
+
 def is_goal_state(current_state, goal_state):
     return current_state == goal_state
 
@@ -85,8 +85,6 @@ def find_plan(initial_state, goal_state, actions):
     print("No plan exists.")
     return None
 
-
-# Example 1
 print("Example 1")
 
 initial_state = {'A': 'Table', 'B': 'Table'}
@@ -100,8 +98,6 @@ actions = {
 plan = find_plan(initial_state, goal_state, actions)
 print("Output:", plan)
 
-
-# Example 2
 print("\nExample 2")
 
 initial_state = {'A': 'Table', 'B': 'Table', 'C': 'Table'}
@@ -115,7 +111,7 @@ actions = {
 
 plan = find_plan(initial_state, goal_state, actions)
 print("Output:", plan)
-```
+
 
 
 OUTPUT:
