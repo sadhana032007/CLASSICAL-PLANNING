@@ -124,8 +124,8 @@ print("Output:", plan)
 
 <h1> Output </h1>
 
-<<img width="186" height="49" alt="image" src="https://github.com/user-attachments/assets/dc75f3c7-0d59-4f15-93f4-5bda185ef632" />
- />
+<img width="186" height="49" alt="image" src="https://github.com/user-attachments/assets/dc75f3c7-0d59-4f15-93f4-5bda185ef632" />
+
 
 
 <hr>
