@@ -46,7 +46,11 @@ print(plan)
 
 # Please Prepare Solution or Definition For the method find_plan(initial_state, goal_state, actions)
 <h3>You Can use any of the searching Strategies for planning and executing a sequence of actions.<br> You can also look in to the Code given in the Repository.</h3>
-PROGRAM:
+<hr>
+
+<h1> Program </h1>
+
+```py
 
 def is_goal_state(current_state, goal_state):
     return current_state == goal_state
@@ -85,6 +89,8 @@ def find_plan(initial_state, goal_state, actions):
     print("No plan exists.")
     return None
 
+
+# Example 1
 print("Example 1")
 
 initial_state = {'A': 'Table', 'B': 'Table'}
@@ -98,6 +104,8 @@ actions = {
 plan = find_plan(initial_state, goal_state, actions)
 print("Output:", plan)
 
+
+# Example 2
 print("\nExample 2")
 
 initial_state = {'A': 'Table', 'B': 'Table', 'C': 'Table'}
@@ -111,12 +119,17 @@ actions = {
 
 plan = find_plan(initial_state, goal_state, actions)
 print("Output:", plan)
+```
+<hr>
+
+<h1> Output </h1>
+
+<<img width="186" height="49" alt="image" src="https://github.com/user-attachments/assets/dc75f3c7-0d59-4f15-93f4-5bda185ef632" />
+ />
 
 
+<hr>
 
-OUTPUT:
+<h1> Result </h1>
 
-<img width="233" height="49" alt="image" src="https://github.com/user-attachments/assets/7416f2c5-43ac-420b-9f57-1990faf919d7" />
-
-Result
-Thus, the program to implement Classical Planning Algorithm has been executed successfully
+Thus, the program to implement Classical Planning Algorithm has been executed successfully.
