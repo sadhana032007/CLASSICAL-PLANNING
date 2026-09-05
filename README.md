@@ -47,7 +47,7 @@ print(plan)
 # Please Prepare Solution or Definition For the method find_plan(initial_state, goal_state, actions)
 <h3>You Can use any of the searching Strategies for planning and executing a sequence of actions.<br> You can also look in to the Code given in the Repository.</h3>
 PROGRAM:
-
+```
 def is_goal_state(current_state, goal_state):
     return current_state == goal_state
 
@@ -115,9 +115,11 @@ actions = {
 
 plan = find_plan(initial_state, goal_state, actions)
 print("Output:", plan)
+```
 
 
 OUTPUT:
+
 <img width="233" height="49" alt="image" src="https://github.com/user-attachments/assets/7416f2c5-43ac-420b-9f57-1990faf919d7" />
 
 Result
